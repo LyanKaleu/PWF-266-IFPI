@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#00faed, #044B4A, #30FFA4, #5FBE92);
+    color: #5FBE92;
+}
+
+#cabecalho, #rodape {
+    background-color: #044B4A;
+    color: #30FFA4;
+    padding: 10px;
+    text-align: center;
+}
+
+#conteudo {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    border-left: 20px solid #5FBE92;
+    border-right: 20px solid #5FBE92;
+    background-color: #044B4A;
+}
+
+h1 {
+    color: #30FFA4;
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    color: #30FFA4;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    border: 4px solid transparent;
+    transition: border-color 0.3s;
+    position: relative;
+}
+
+img:hover {
+    border-color: #30FFA4;
+    animation: drawBorder 4s forwards;
+}
+
+@keyframes drawBorder {
+    0% {
+        border-top: 2px solid transparent;
+        border-right: 2px solid transparent;
+        border-bottom: 2px solid transparent;
+        border-left: 2px solid transparent;
+    }
+    25% {
+        border-top: 2px solid #30FFA4;
+    }
+    50% {
+        border-right: 2px solid #30FFA4;
+    }
+    75% {
+        border-bottom: 2px solid #30FFA4;
+    }
+    100% {
+        border-left: 2px solid #30FFA4;
+    }
+}
+
+nav {
+    background-color: #044B4A;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #30FFA4;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #5FBE92;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+ul li a:hover {
+    color: #30FFA4;
+}
+
+.btn-voltar-topo {
+    display: inline-block;
+    background-color: white;
+    color: #30FFA4;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-voltar-topo:hover {
+    background-color: #5FBE92;
+}
+
+#conteudo a.filme {
+    color: #00faed;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#conteudo a.filme:hover {
+    color: #5FBE92;
+}

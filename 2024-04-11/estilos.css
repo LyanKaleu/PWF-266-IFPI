@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body {
+    line-height: 2.0;
+}
+
+input, select {
+    display: block;
+}
+
+input[type="checkbox"] {
+    display: inline;
+}

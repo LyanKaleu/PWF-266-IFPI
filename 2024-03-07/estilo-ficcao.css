@@ -1,0 +1,102 @@
+body {
+    background-color: #0d1b2a;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: #ff9e00;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #7fdbff;
+    margin-top: 40px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.image-container {
+    position: relative;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+img {
+    width: 100%; /* Adapta a imagem para a largura do container */
+    max-width: 600px; /* Máximo tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 20px auto; /* Centraliza a imagem horizontalmente */
+    display: block;
+    border: 2px solid #7fdbff;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    box-sizing: border-box;
+}
+
+.image-container:hover .caption {
+    opacity: 1;
+}
+
+ul {
+    list-style-type: circle; /* Estilo dos marcadores da lista */
+    margin-left: 40px; /* Identação da lista */
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #0d1b2a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.voltar-topo {
+    background-color: #007bff;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+}

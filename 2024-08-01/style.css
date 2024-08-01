@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333333;
+    color: white;
+}
+
+header, footer {
+    text-align: center;
+}
+
+header, footer, .timeline, nav {
+    padding: 20px;
+}
+
+main {
+    display: flex;
+}
+
+.timeline {
+    background-color: white;
+    width: 75%;
+}
+
+.timeline h2 {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article {
+    margin: 20px;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+#autor-data {
+    text-align: right;
+}
+
+nav {
+    background-color: darkgray;
+    width: 25%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

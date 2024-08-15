@@ -14,3 +14,5 @@
 # Atividade 06 <sup>[link](https://lyankaleu.github.io/PWF-266-IFPI/2024-07-11/index.html)</sup>
 
 # Atividade 07 <sup>[link](https://lyankaleu.github.io/PWF-266-IFPI/2024-08-01/index.html)</sup>
+
+# Atividade 08 <sup>[link](https://lyankaleu.github.io/PWF-266-IFPI/2024-08-15/blog.html)</sup>

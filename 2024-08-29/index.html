@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com Seletores de Atributos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Formulário de Inscrição</h1>
+
+    <form>
+        <fieldset> <!-- Define um contorno ao redor dos grupos de controle do formulário, com legenda que descreve o conteúdo do fieldset -->
+            <legend>Informações</legend>
+            <label for="username">Nome de usuário:</label>
+            <input type="text" name="username" id="username">
+
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password">
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Gênero</legend>
+            <label><input type="radio" name="genero" id="genero" value="masculino">Masculino</label>
+            <label><input type="radio" name="genero" id="genero" value="feminino">Feminino</label>
+            <label><input type="radio" name="genero" id="genero" value="outro">Outro</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Interesses</legend>
+            <label><input type="checkbox" name="interesses" id="interesses" value="programacao">Programação</label>
+            <label><input type="checkbox" name="interesses" id="interesses" value="musica">Música</label>
+            <label><input type="checkbox" name="interesses" id="interesses" value="esporte">Esportes</label>
+            <label><input type="checkbox" name="interesses" id="interesses" value="filmes">Filmes</label>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+
+        <!-- Substituição de imagens
+         É uma prática de substituir imagens dentro de links por imagens de background utilizando CSS, o que proporciona maior controle visual e flexibilidade -->
+        <section>
+            <h1>Substituição de imagens</h1>
+            <ul class="icones-sociais">
+                <li><a class="github" href="https://github.com" target="_blank">Github</a></li>
+                <li><a class="twitter" href="https://twitter.com" target="_blank">Twitter</a></li>
+                <li><a class="linkedin" href="https://www.linkedin.com" target="_blank">Linkedin</a></li>
+            </ul>
+        </section>
+    </form>
+</body>
+</html>

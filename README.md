@@ -67,4 +67,10 @@ Explore as atividades abaixo e clique no link correspondente para acessá-las.
 > 🗓️ **Data:** 29/08/2024
 >
 
+### **8. [Exercício 009](https://lyankaleu.github.io/PWF-266-IFPI/2024-09-05/index.html)**
+> **Descrição:** Introdução ao Javascript.
+>
+> 🗓️ **Data:** 05/09/2024
+>
+
 ---

@@ -77,3 +77,11 @@ Explore as atividades abaixo e clique no link correspondente para acessá-las.
 >
 
 ---
+
+### **10. [Exercício 010](https://lyankaleu.github.io/PWF-266-IFPI/2024-09-12/index.html)**
+> **Descrição:** Manipulação de tags HTML através do DOM.
+>
+> 🗓️ **Data:** 12/09/2024
+>
+
+---
